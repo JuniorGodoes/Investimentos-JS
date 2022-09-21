@@ -360,17 +360,17 @@ main section.middle .cards{
 }
 
 main section.middle .cards .card{
+    height: 16rem;
+    width: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: linear-gradient(#ff796f, #bd261b);
     padding: var(--card-padding);
     border-radius: var(--card-border-radius);
     color: white;
-    height: 16rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     box-shadow: 0 2rem 3rem var(--color-danger-light);
     transition: all 300ms ease;
-    min-width: 22rem;
 }
 
 main section.middle .cards .card:hover{
@@ -379,7 +379,7 @@ main section.middle .cards .card:hover{
 
 main section.middle .cards .card:nth-child(2){
     background: linear-gradient(#7f8191, #27282f);
-    box-shadow: 0 2rem 3 rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.2);
 }
 
 main section.middle .cards .card:nth-child(3){
@@ -653,7 +653,7 @@ main .recent-transactions .card-details .card {
         height: 100vh;
         box-shadow: 2rem 0 2rem var(--color-primary-light);
         display: none;
-        animation: showSidebar 300ms ease forwards;
+        animation: showSidebar 500ms ease forwards;
     }
 
     @keyframes showSidebar {

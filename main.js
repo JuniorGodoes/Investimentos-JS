@@ -35,7 +35,7 @@ menuBtn.addEventListener('click', () => {
     sidebar.style.display = 'block';
 })
 
-menuBtn.addEventListener('click', () => {
+closeBtn.addEventListener('click', () => {
     sidebar.style.display = 'none';
 })
 
