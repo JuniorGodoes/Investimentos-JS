@@ -260,6 +260,10 @@ main aside{
     height: 88vh;
 }
 
+main aside {
+    display: block;
+}
+
 main aside button#close-btn{
     display: none;
 }
